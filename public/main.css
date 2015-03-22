@@ -1,7 +1,7 @@
 body {
     font-family: "Courier New";
     color: gray;
-    background: url("img/world-domination.png") no-repeat;
+    background: url("img/world_domination.jpeg") no-repeat;
     background-size: cover;
 }
 .container {
