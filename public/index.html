@@ -9,17 +9,33 @@
             body {
                 font-family: "Courier New";
                 color: gray;
-                text-align: center;
+                background: url("img/world-domination.png") no-repeat;
+                background-size: cover;
             }
-            body div {
-                margin-top: 50px;
+            .container {
+                max-height: 200px;
+                max-width: 400px;
+                padding: 15px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            @media (max-width: 1000px) {
+                body {
+                    background-size: 880px 670px;
+                    background-position: 75% 0%;
+                }
             }
         </style>
     </head>
     <body>
-        <div>Hi! I'm Toni Suominen.
+        <div class="container">
+            Hi! I'm Toni Suominen.
             <br>
-            I'm a software developer at <a href="http://reaktor.com">Reaktor</a>.
+            <br>
+            I'm a software developer at <a href="http://reaktor.com" target="blank">Reaktor</a>.
+            <br>
+            <br>
+            <a href="http://twitter.com/suominentoni" target="blank">@suominentoni</a>
         </div>
     </body>
 </html>
