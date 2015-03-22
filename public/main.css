@@ -14,7 +14,7 @@ body {
     border-radius: 2px;
     box-shadow: 1px 1px 1px black;
 }
-a:visited {
+a:visited, a {
     color: #00FF00;
 }
 @media (max-width: 1000px) {
